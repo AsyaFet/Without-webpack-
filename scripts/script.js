@@ -36,7 +36,7 @@ const users = [
 // Используйте foreach или for, а потом if внутри петли
 
 users.forEach((user) => {
-  visitedPark == true || boughtItems == true
+  users.visitedPark == true || users.boughtItems == true
     ? console.log("You have come actions", user)
     : console.log("You haven`t apropriate actions", user);
 });
@@ -46,7 +46,7 @@ let iterationCounter = "Each iteration adds a *: ";
 for (let i = 0; i < users.length; i++) {
   iterationCounter += " * ";
   parseInt(iterationCounter, i);
-  console.log(user[i]);
+  console.log(users[i]);
   // 3) Используя assigment operator(+=) поменяйте значение переменоой iterationCounter, добавляя по одной звездочке при каждой итерации
 }
 
